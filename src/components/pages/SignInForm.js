@@ -11,14 +11,14 @@ export default class SignUpForm extends Component {
         let value = e.target.value;
         let name = e.target.name;
         this.setState({
-            [name]: value
+            [name]: value 
             });
     }
     handleSubmit = (e)=> {
         //console.log(e.target)
         e.preventDefault();
         
-        console.log('The form was submitted with the following data:');
+        console.log('The form was submitted with the following data:');ç
     } 
     render() {
         return (
